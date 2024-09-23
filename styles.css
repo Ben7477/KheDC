@@ -1,7 +1,6 @@
 body{
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 100vh;
     background-color: hsl(290, 100%, 88%)
 }
@@ -15,18 +14,22 @@ body{
     height: 100px;
     background-color: rgb(188, 155, 201);
     position: absolute;
-    left: 320px;
+    left: 825px;
+    top: 350px;
 }
 
 #Paragraph{
     font: bold;
     font-size: large;
     background-color: hsl(0, 100%, 95%);
+    position: absolute;
+    top: 300px;
+    left: 700px;
     width: 500px;
 }
 
 #GifFlower{
     position: fixed;
-    top: 100px;
+    top: 85px;
     left: 825px;
 }
