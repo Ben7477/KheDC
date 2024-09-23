@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(290, 100%, 88%)
+}
+
+#button{
+    border-radius: 5%;
+    font-style: italic;
+    font-size: large;
+    cursor: pointer;
+    width: 250px;
+    height: 100px;
+    background-color: rgb(188, 155, 201);
+    position: absolute;
+    left: 320px;
+}
+
+#Paragraph{
+    font: bold;
+    font-size: large;
+    background-color: hsl(0, 100%, 95%);
+    width: 500px;
+}
+
+#GifFlower{
+    position: fixed;
+    top: 100px;
+    left: 825px;
+}
